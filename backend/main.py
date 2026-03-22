@@ -20,7 +20,7 @@ app.add_middleware(
     allow_credentials=True, allow_methods=["*"], allow_headers=["*"],
 )
 
-engine = HybridEngine(hf_key=os.environ.get("HF_API_KEY"))
+engine = HybridEngine(hf_key=os.environ.get("HF_API_KEY",""))
 
 DB_PATH = "firewall.db"
 
