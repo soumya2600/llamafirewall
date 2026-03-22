@@ -1,5 +1,5 @@
 // api.js — API calls to the FastAPI backend
-export const BASE_URL = "http://127.0.0.1:8000";
+export const BASE_URL = "https://llamafirewall.onrender.com";
 
 export async function pingBackend() {
   try {
